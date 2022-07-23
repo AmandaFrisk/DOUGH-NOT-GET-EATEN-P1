@@ -98,7 +98,7 @@ rePlay1Btn (){
         setTimeout((()=> {doughnutEaten.remove()}), 1500)   
         setTimeout((()=> {   
     replaybtn1P=document.createElement('button')
-     replaybtn1P.style.backgroundImage= "url(../images/sprinklesStart.png)"
+     replaybtn1P.style.backgroundImage= "url('./images/sprinklesStart.png')"
      replaybtn1P.setAttribute("id", "replay-btn-P1")
      replaybtn1P.innerText= "PLAY AGAIN"
      replaybtn1P.addEventListener("click", ()=>this.rePlay1Btn())
