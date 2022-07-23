@@ -10,6 +10,9 @@ Initial Wireframe:
 
 Current Wireframe:
 
+![Project Done Wireframe](https://user-images.githubusercontent.com/104706798/180586016-49d19086-e8f5-402c-b639-99b3d880b7dc.png)
+
+
 User Stories:
 As a player I want to click the 1 Player button so that it goes to the 1 player playing screen.
 As a player I want to click the 2 Player button so that it goes to the 2 player playing screen.
