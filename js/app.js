@@ -223,13 +223,13 @@ class Game2 {
         //create JUMP btn                                 
         grabJumpBtn2=document.createElement('button')   
         grabJumpBtn2.innerText="JUMP"
-        grabJumpBtn2.style.backgroundImage= "url(../images/jumpBtnImage.png)"
+        grabJumpBtn2.style.backgroundImage= "url('./images/jumpBtnImage.png')"
         grabJumpBtn2.setAttribute('id',"jump-btn2")
         grabJumpBtn2.addEventListener("click", ()=>this.jump()) // Arrow function and this. since it is calling a method w/in the class rather than a function
         grabEmptyJump.appendChild(grabJumpBtn2)
     //create GO btn
         grabGoBtnPlayer1a=document.createElement('button');
-        grabGoBtnPlayer1a.style.backgroundImage= "url(../images/goBtnImage.png)"
+        grabGoBtnPlayer1a.style.backgroundImage= "url('./images/goBtnImage.png')"
         // grabGoBtnPlayer1a.innerText="GO";
         grabGoBtnPlayer1a.setAttribute("id", "go-btn-player-1a")
         grabGoBtnPlayer1a.addEventListener("click", ()=>this.goPlayer1())
@@ -265,13 +265,13 @@ class Game2 {
         //create JUMP btn                                 
         grabJumpBtn2=document.createElement('button')   
         grabJumpBtn2.innerText="JUMP"
-        grabJumpBtn2.style.backgroundImage= "url(../images/jumpBtnImage.png)"
+        grabJumpBtn2.style.backgroundImage= "url('./images/jumpBtnImage.png')"
         grabJumpBtn2.setAttribute('id',"jump-btn2")
         grabJumpBtn2.addEventListener("click", ()=>this.jump()) // Arrow function and this. since it is calling a method w/in the class rather than a function
         grabEmptyJump.appendChild(grabJumpBtn2)
     //create GO btn
         grabGoBtnPlayer1a=document.createElement('button');
-        grabGoBtnPlayer1a.style.backgroundImage= "url(../images/goBtnImage.png)"
+        grabGoBtnPlayer1a.style.backgroundImage= "url('./images/goBtnImage.png')"
         // grabGoBtnPlayer1a.innerText="GO";
         grabGoBtnPlayer1a.setAttribute("id", "go-btn-player-1a")
         grabGoBtnPlayer1a.addEventListener("click", ()=>this.goPlayer1())
@@ -368,13 +368,13 @@ class Game2 {
         // //create JUMP btn                                 
         grabJumpBtn2=document.createElement('button')   
         grabJumpBtn2.innerText="JUMP"
-        grabJumpBtn2.style.backgroundImage= "url(../images/jumpBtnImage.png)"
+        grabJumpBtn2.style.backgroundImage= "url('./images/jumpBtnImage.png')"
         grabJumpBtn2.setAttribute('id',"jump-btn2")
         grabJumpBtn2.addEventListener("click", ()=>this.jump()) // Arrow function and this. since it is calling a method w/in the class rather than a function
         grabEmptyJump.appendChild(grabJumpBtn2)
     //create GO btn
         grabGoBtnPlayer2=document.createElement('button');
-        grabGoBtnPlayer2.style.backgroundImage= "url(../images/goBtnImage.png)"
+        grabGoBtnPlayer2.style.backgroundImage= "url('./images/goBtnImage.png')"
         grabGoBtnPlayer2.setAttribute("id", "go-btn-player-2")
         grabGoBtnPlayer2.addEventListener("click", ()=>this.goPlayer2())
         grabEmptyGo.appendChild(grabGoBtnPlayer2);
@@ -499,7 +499,7 @@ class Game2 {
     
     setTimeout((()=> {   
         replay2P=document.createElement('button')
-         replay2P.style.backgroundImage= "url(../images/piggyStart.png)"
+         replay2P.style.backgroundImage= "url('./images/piggyStart.png')"
          replay2P.setAttribute("id", "replay-btn-P2")
          replay2P.innerText= "PLAY AGAIN"
          replay2P.addEventListener("click", ()=>this.rePlay2PBtn())
