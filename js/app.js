@@ -300,7 +300,7 @@ class Game2 {
         doughnutEaten=document.createElement('img')
         doughnutEaten.setAttribute('id', 'dough-eaten')
         grabBox.appendChild(doughnutEaten)
-        doughnutEaten.src=('../images/doughnutEatenImage.png')
+        doughnutEaten.src=('./images/doughnutEatenImage.png')
         
             setTimeout((()=> {doughnutEaten.remove()}), 1500)  
             this.turn +=1
