@@ -4,6 +4,8 @@ The Dough-Not Get Eaten game was created as a unit 1 project for a software engi
 
 Player clicks a button to jump in order to avoid the doughnut character getting eaten by a pig character. There is a 1 and 2 player option.  In the 2 player version, players' times are compared to announce a winner.
 
+The game is published at https://amandafrisk.github.io/DOUGH-NOT-GET-EATEN-P1/
+
 Initial Wireframe:
 ![DOUGH-NOT GET EATEN](https://user-images.githubusercontent.com/104706798/180518652-06b9c0ea-074a-42f5-90f7-f642be6d81f7.png)
 
@@ -22,7 +24,7 @@ As a player I want to click the GO button so that I can begin my turn.
 
 As a player I want to click the JUMP button to avoid the doughnut character colliding with the mouth character.
 
-As a player I want to be informed about which player won so that I know if I won.
+If playing the 2 player option - As a player I want to be informed about which player won so that I know if I won.
 
 Technologies Used:
 Git
@@ -44,6 +46,7 @@ Forthcoming Features:
 Considering changing the timing comparsion to resolve the aforementioned discrepancies as well as adding a record keeping feature to the 1 player option.
 
 Credits:
+HTML, CSS and JavaScript written by Amanda Frisk
 
 Game coding logic inspired by KnifeCircus via Youtube
 
