@@ -46,6 +46,7 @@ Forthcoming Features:
 Considering changing the timing comparsion to resolve the aforementioned discrepancies as well as adding a record keeping feature to the 1 player option.
 
 Credits:
+HTML, CSS and JavaScript written by Amanda Frisk
 
 Game coding logic inspired by KnifeCircus via Youtube
 
