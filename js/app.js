@@ -94,7 +94,7 @@ rePlay1Btn (){
     doughnutEaten.setAttribute('id', 'dough-eaten')
     grabBox.appendChild(doughnutEaten)
     pigOinking.play();
-    doughnutEaten.src=('../images/doughnutEatenImage.png')
+    doughnutEaten.src=('./images/doughnutEatenImage.png')
         setTimeout((()=> {doughnutEaten.remove()}), 1500)   
         setTimeout((()=> {   
     replaybtn1P=document.createElement('button')
