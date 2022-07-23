@@ -41,7 +41,7 @@ Play1Btn (){
     //create JUMP btn                                 
     grabJumpBtn=document.createElement('button')   
     grabJumpBtn.innerText="JUMP"
-    grabJumpBtn.style.backgroundImage= "url(../images/jumpBtnImage.png)"
+    grabJumpBtn.style.backgroundImage= "url('../images/jumpBtnImage.png')"
     grabJumpBtn.setAttribute('id',"jump-btn")
     grabJumpBtn.addEventListener("click", ()=>this.jump()) // Arrow function and this. since it is calling a method w/in the class rather than a function
     grabEmptyJump.appendChild(grabJumpBtn)
@@ -164,7 +164,6 @@ document.getElementById('play1-btn').addEventListener('click',(e)=>{onePlayer.Pl
 //__________________________________________________________________________________________________________
 //2 PLAYER
 
-//QUERYSELECTORS - JUST USED FOR GAME2
 
 //Global Variables
 let grabturnTrackerDiv;

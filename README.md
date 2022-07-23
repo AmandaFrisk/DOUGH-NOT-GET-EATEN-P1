@@ -10,11 +10,18 @@ Initial Wireframe:
 
 Current Wireframe:
 
+![Project Done Wireframe](https://user-images.githubusercontent.com/104706798/180586016-49d19086-e8f5-402c-b639-99b3d880b7dc.png)
+
+
 User Stories:
 As a player I want to click the 1 Player button so that it goes to the 1 player playing screen.
+
 As a player I want to click the 2 Player button so that it goes to the 2 player playing screen.
+
 As a player I want to click the GO button so that I can begin my turn.
+
 As a player I want to click the JUMP button to avoid the doughnut character colliding with the mouth character.
+
 As a player I want to be informed about which player won so that I know if I won.
 
 Technologies Used:
@@ -34,11 +41,11 @@ Unsolved Problems:
 There's some discrepancies with the timing comparision that I believe is a result of milliseconds loading time differences.
 
 Forthcoming Features:
-Considering changing the timing comparsion to resolve the aforementioned discrepancies.
+Considering changing the timing comparsion to resolve the aforementioned discrepancies as well as adding a record keeping feature to the 1 player option.
 
 Credits:
 
-Game play coding inspired by KnifeCircus 
+Game coding logic inspired by KnifeCircus via Youtube
 
 Graphic Designs by Alexis Mei
 
