@@ -15,9 +15,13 @@ Current Wireframe:
 
 User Stories:
 As a player I want to click the 1 Player button so that it goes to the 1 player playing screen.
+
 As a player I want to click the 2 Player button so that it goes to the 2 player playing screen.
+
 As a player I want to click the GO button so that I can begin my turn.
+
 As a player I want to click the JUMP button to avoid the doughnut character colliding with the mouth character.
+
 As a player I want to be informed about which player won so that I know if I won.
 
 Technologies Used:
