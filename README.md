@@ -41,7 +41,7 @@ Unsolved Problems:
 There's some discrepancies with the timing comparision that I believe is a result of milliseconds loading time differences.
 
 Forthcoming Features:
-Considering changing the timing comparsion to resolve the aforementioned discrepancies.
+Considering changing the timing comparsion to resolve the aforementioned discrepancies as well as adding a record keeping feature to the 1 player option.
 
 Credits:
 
